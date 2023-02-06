@@ -1,4 +1,4 @@
-# Apache Airflow ListHDFSRegexSensor
+# Apache Airflow ListHdfsRegexSensor
 Class extension of Airflow [HdfsRegexSensor](https://airflow.apache.org/docs/apache-airflow-providers-apache-hdfs/stable/_modules/airflow/providers/apache/hdfs/sensors/hdfs.html#HdfsRegexSensor) to save in a Xcom variable the list of recognized objects.
 When sensor recognizes the pattern in the regex, it saves the list in a Xcom json array variable called `files`, but you can change it as you prefer.
 
